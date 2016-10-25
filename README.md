@@ -24,15 +24,24 @@ So how does it work?
 
 We create two entities ( I mean two program for Server and Client)!
 
-Server:           Client:
+Server:           
                         
 Bind()            
-socket()          socket()
+socket()          
 Listen()          
-Accept()          connect()
-Read()            write()
-Write()           read()
-Close()           close()
+Accept()          
+Read()            
+Write()           
+Close() 
+
+
+Client: 
+
+Socket()
+connect()
+write()
+read()
+close()
 
 These are some of the important steps for the communication. We can compare the module with a telephone. 
 
